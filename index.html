@@ -4,170 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vibe: Empower Your Data Transformation Journey</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        .loading-page {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-        }
-
-        .loading-gif {
-            width: 250px;
-            height: 250px;
-            object-fit: contain;
-        }
-
-
-        header {
-            height: 575px;
-            background-image : url(./future-artificial-intelligence-transformed.jpeg) ;
-            background-size: cover;
-            background-position: center;
-            appearance: 45%;
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-            align-content: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.8em;
-            font-weight: 700;
-        }
-
-        header p {
-            margin-top: 10px;
-            font-size: 1.2em;
-            font-weight: 400;
-        }
-
-        header button {
-            margin-top: 20px;
-            
-            background-color: #0078D7;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1em;
-            cursor: pointer;
-            font-weight: 600;
-        }
-
-        header button:hover {
-            background-color: #e64a19;
-        }
-
-        nav {
-            background: #ffffff;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        nav a {
-            color: #0078D7;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        nav a:hover {
-            color: #004680;
-        }
-
-        section {
-            padding: 50px 20px;
-            margin: 30px auto;
-            max-width: 1200px;
-        }
-
-        section h2 {
-            font-size: 2em;
-            color: #0078D7;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .intro, .section-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        .intro img, .section-content img {
-            width: 45%;
-            border-radius: 10px;
-        }
-
-        .intro-text, .section-text {
-            width: 50%;
-            padding: 20px;
-        }
-
-        .intro-text h2, .section-text h2 {
-            margin-top: 0;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-            font-size: 1.1em;
-            font-weight: 400;
-        }
-
-        ul li img {
-            width: 30px;
-            margin-right: 15px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #004680;
-            color: white;
-            font-weight: 400;
-        }
-
-        footer p {
-            margin: 0;
-        }
-    </style>
 </head>
 <body>
-    <div class="loading-page" id="loadingPage">
-        <img src="Untitled design (2).gif" alt="Loading Animation" class="loading-gif">
+    <div class="loading-page" id="loadingPage" >
+        <video autoplay muted loop class="loading-video" >
+            <source src="./opening laod.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
-
 <header>
     <h1>Empower Your Data Transformation Journey</h1>
     <p>Simplify, accelerate, and secure your data migration with Vibe.</p>
@@ -773,7 +623,7 @@
                     el.classList.add('content-visible');
                 });
             }, 500); // Match this with the transition duration
-        }, 2000); // Minimum loader visibility duration
+        }, 4000); // Minimum loader visibility duration
     });
 </script>
 

@@ -1,0 +1,260 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+/* Ensure the loader covers the screen */
+.loading-page {
+position: fixed;
+top: 0;
+left: 0;
+width: 50%;
+height: 50%;
+background-color: #e6e6e6;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 9999;
+}
+/* Ensure the loader covers the screen */
+.loading-page {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+
+/* Make the video fit the screen */
+.loading-video {
+width:100vw;
+height:100vh;
+
+}
+
+
+
+header {
+height: 575px;
+background-image: url(./future-artificial-intelligence-transformed.jpeg);
+background-size: cover;
+background-position: center;
+color: white;
+padding: 50px 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 2.8em;
+font-weight: 700;
+}
+
+header p {
+margin-top: 10px;
+font-size: 1.2em;
+font-weight: 400;
+}
+
+header button {
+margin-top: 20px;
+background-color: #007BFF; /* Primary color */
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 1em;
+cursor: pointer;
+font-weight: 600;
+}
+
+header button:hover {
+background-color: #e64a19; /* Hover effect */
+}
+
+nav {
+background: #ffffff;
+padding: 10px 20px;
+display: flex;
+justify-content: center;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+color: #0078D7;
+text-decoration: none;
+margin: 0 15px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+nav a:hover {
+color: #004680;
+}
+
+section {
+padding: 50px 20px;
+margin: 30px auto;
+max-width: 1200px;
+}
+
+section h2 {
+font-size: 2em;
+color: #0078D7;
+margin-bottom: 20px;
+font-weight: 700;
+}
+
+.intro, .section-content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.intro img, .section-content img {
+width: 100%;
+max-width: 45%;
+border-radius: 10px;
+}
+
+.intro-text, .section-text {
+width: 100%;
+max-width: 50%;
+padding: 20px;
+}
+
+.intro-text h2, .section-text h2 {
+margin-top: 0;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+ul li {
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+font-size: 1.1em;
+font-weight: 400;
+}
+
+ul li img {
+width: 30px;
+margin-right: 15px;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #004680;
+color: white;
+font-weight: 400;
+}
+
+footer p {
+margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+header {
+height: 400px;
+padding: 30px 20px;
+}
+
+header h1 {
+font-size: 2.4em;
+}
+
+header p {
+font-size: 1em;
+}
+
+.intro img, .section-content img {
+width: 100%;
+max-width: 100%;
+margin-bottom: 20px;
+}
+
+.intro-text, .section-text {
+width: 100%;
+max-width: 100%;
+text-align: center;
+}
+}
+
+@media (max-width: 768px) {
+nav {
+flex-direction: column;
+}
+
+nav a {
+margin: 5px 0;
+}
+
+header {
+height: 300px;
+}
+
+header h1 {
+font-size: 1.8em;
+}
+
+header p {
+font-size: 0.9em;
+}
+
+header button {
+padding: 8px 15px;
+font-size: 0.9em;
+}
+
+section {
+padding: 30px 10px;
+}
+
+section h2 {
+font-size: 1.6em;
+}
+}
+
+@media (max-width: 480px) {
+header {
+padding: 20px;
+}
+
+header h1 {
+font-size: 1.4em;
+}
+
+header p {
+font-size: 0.8em;
+}
+
+header button {
+padding: 6px 10px;
+font-size: 0.8em;
+}
+
+nav {
+flex-direction: column;
+}
+
+nav a {
+font-size: 0.8em;
+}
+
+section h2 {
+font-size: 1.4em;
+}
+}
